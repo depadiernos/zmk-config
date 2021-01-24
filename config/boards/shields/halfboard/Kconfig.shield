@@ -1,0 +1,2 @@
+config HALFBOARD
+    def_bool $(shields_list_contains,halfboard)

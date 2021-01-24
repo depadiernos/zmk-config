@@ -1,0 +1,6 @@
+if HALFBOARD
+
+config ZMK_KEYBOARD_NAME
+    default "Halfboard"
+
+endif
