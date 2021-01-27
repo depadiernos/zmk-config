@@ -15,7 +15,7 @@
 
 		default_layer {
 				bindings = <
-					&kp TAB   &kp Q    &kp W    &kp E &kp R &kp T  
+					&kp BSPC  &kp Q    &kp W    &kp E &kp R &kp T  
 					&kp RET   &kp A    &kp S    &kp D &kp F &kp G  
 					&kp LSHFT &kp Z    &kp X    &kp C &kp V &kp B  
 					&kp LCTRL &kp LALT &kp LGUI &mo 3 &mo 2 &lt 1 SPACE
@@ -42,17 +42,17 @@
 		navi {
 				bindings = <
 					&kp ESC &kp HOME   &kp UP       &kp END      &kp PG_UP &kp INS 
-					&trans  &kp LEFT   &kp DOWN     &kp RIGHT    &kp PG_DN &kp PSCRN 
+					&kp TAB &kp LEFT   &kp DOWN     &kp RIGHT    &kp PG_DN &kp PSCRN 
 					&trans  &kp K_MUTE &kp K_VOL_DN &kp K_VOL_UP &none     &none  
 					&trans  &trans     &trans       &trans       &mo 4     &kp SPACE
 				>;
 		};
 		fn {
 				bindings = <
-					&out OUT_TOG &kp F1 &kp F2  &kp F3  &kp F4  &bt BT_CLR  
-					&none        &kp F5 &kp F6  &kp F7  &kp F8  &bt BT_SEL 0  
-					&trans       &kp F9 &kp F10 &kp F11 &kp F12 &bt BT_SEL 1  
-					&trans       &trans &trans  &trans  &trans  &none
+					&none   &kp F1 &kp F2  &kp F3  &kp F4  &bt BT_CLR  
+					&none   &kp F5 &kp F6  &kp F7  &kp F8  &bt BT_SEL 0  
+					&trans  &kp F9 &kp F10 &kp F11 &kp F12 &bt BT_SEL 1  
+					&trans  &trans &trans  &trans  &trans  &none
 				>;
 		};
 	};
