@@ -17,8 +17,8 @@
 				bindings = <
 					&kp BSPC  &kp Q    &kp W    &kp E &kp R &kp T  
 					&kp RET   &kp A    &kp S    &kp D &kp F &kp G  
-					&sk LSHFT &kp Z    &kp X    &kp C &kp V &kp B  
-					&kp LCTRL &kp LALT &kp LGUI &sl 3 &sl 2 &lt 1 SPACE
+					&kp LSHFT &kp Z    &kp X    &kp C &kp V &kp B  
+					&kp LCTRL &kp LALT &kp LGUI &mo 3 &mo 2 &lt 1 SPACE
 				>;
 			};
 
