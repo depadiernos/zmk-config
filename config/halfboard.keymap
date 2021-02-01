@@ -42,8 +42,8 @@
 		navi {
 				bindings = <
 					&kp ESC &kp HOME   &kp UP       &kp END      &kp PG_UP &kp INS 
-					&kp TAB &kp LEFT   &kp DOWN     &kp RIGHT    &kp PG_DN &kp PSCRN 
-					&trans  &kp K_MUTE &kp K_VOL_DN &kp K_VOL_UP &none     &none  
+					&kp TAB &kp LEFT   &kp DOWN     &kp RIGHT    &kp PG_DN &kp LS(LG(4)) 
+					&trans  &kp C_MUTE &kp C_VOL_DN &kp C_VOL_UP &none     &none  
 					&trans  &trans     &trans       &trans       &mo 4     &kp SPACE
 				>;
 		};
