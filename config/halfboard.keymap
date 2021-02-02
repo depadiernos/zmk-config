@@ -10,7 +10,7 @@
 #include <dt-bindings/zmk/outputs.h>
 
 #define DEFAULT 0
-#define SPC   1
+#define PRIME   1
 #define NUM   2
 #define SYM   3
 #define FN    4
@@ -28,7 +28,7 @@
 					&none &kp F      &kp D     &kp N   &kp I   &kp G  
 					&none &kp S      &kp T     &kp H   &kp F   &kp O  
 					&none &kp C      &kp W     &kp R   &kp A   &kp U  
-					&none &sk LSHIFT &kp ENTER &sl SYM &sl NUM &lt SPC SPACE
+					&none &sk LSHIFT &kp ENTER &sl SYM &sl NUM &lt PRIME SPACE
 				>;
 			};
 
