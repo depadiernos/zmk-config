@@ -11,13 +11,12 @@
 
 #define DEFAULT 0
 #define NUM   2
-#define SYM   3
+#define NAV   3
 #define FN    4
 
 &lt {
-    tapping_term_ms = <100>;
+    tapping_term_ms = <150>;
 };
-
 / {
 	keymap {
 		compatible = "zmk,keymap";
@@ -27,7 +26,7 @@
 					&none &kp F      &kp D   &kp N   &kp I   &kp G  
 					&none &kp S      &kp T   &kp H   &kp F   &kp O  
 					&none &kp C      &kp W   &kp R   &kp A   &kp U  
-					&none &sk LSHIFT &kp RET &sl SYM &sl NUM &lt 1 SPACE
+					&none &sk LSHFT &kp RET &sl NAV &sl NUM &lt 1 SPACE
 				>;
 			};
 
