@@ -16,7 +16,7 @@
 #define FN    4
 
 &lt {
-    tapping_term_ms = <150>;
+    tapping_term_ms = <100>;
 };
 
 / {
@@ -25,44 +25,44 @@
 
 		default_layer {
 				bindings = <
-					&kp BSPC  &kp Q    &kp W    &kp E   &kp R   &kp T  
-					&kp RET   &kp A    &kp S    &kp D   &kp F   &kp G  
-					&sk LSHFT &kp Z    &kp X    &kp C   &kp V   &kp B  
-					&sk LCTRL &sk LALT &sk LGUI &mo SYM &sl NUM &lt SPC SPACE
+					&none &kp F      &kp D     &kp N   &kp I   &kp G  
+					&none &kp S      &kp T     &kp H   &kp F   &kp O  
+					&none &kp C      &kp W     &kp R   &kp A   &kp U  
+					&none &sk LSHIFT &kp ENTER &sl SYM &sl NUM &lt SPC SPACE
 				>;
 			};
 
 		space {
 				bindings = <
-					&kp BSPC &kp P    &kp O   &kp I     &kp U &kp Y  
-					&kp SQT  &kp SEMI &kp L   &kp K     &kp J &kp H  
-					&trans   &kp FSLH &kp DOT &kp COMMA &kp M &kp N  
-					&trans   &trans   &trans  &none     &none &trans
+					&none  &kp J  &kp K  &kp M    &kp I    &kp MINUS  
+					&none  &kp Y  &kp P  &kp K    &kp L    &kp Q  
+					&none  &kp X  &kp B  &kp V    &kp FSLH &kp Z  
+					&none  &trans &trans &kp ESC  &none    &trans
 				>;
 		};
 
 		num {
 				bindings = <
-					&kp DEL   &kp N1   &kp N2   &kp N3    &kp N4    &kp N5 
-					&kp GRAVE &kp N6   &kp N7   &kp N8    &kp N9    &kp N0  
-					&trans    &kp LBKT &kp RBKT &kp MINUS &kp EQUAL &kp BSLH  
-					&trans    &trans   &trans   &mo FN    &trans    &kp SPACE
+					&none &kp N1    &kp N2    &kp N3   &kp N4    &kp N5 
+					&none &kp N6    &kp N7    &kp N8   &kp N9    &kp N0  
+					&none &kp EQUAL &kp GRAVE &kp SEMI &kp COMMA &kp DOT  
+					&none &trans    &trans    &sl FN   &trans    &trans
 				>;
 		};
 		navi {
 				bindings = <
-					&kp ESC &kp HOME   &kp UP       &kp END      &kp PG_UP &kp INS 
-					&kp TAB &kp LEFT   &kp DOWN     &kp RIGHT    &kp PG_DN &kp LG(LS(N4)) 
-					&trans  &kp C_MUTE &kp C_VOL_DN &kp C_VOL_UP &none     &kp PSCRN  
-					&trans  &trans     &trans       &trans       &mo FN    &kp SPACE
+					&none &kp BSPC  &kp HOME     &kp UP       &kp END   &kp PGUP 
+					&none &kp DEL   &kp LEFT     &kp DOWN     &kp RIGHT &kp PGDN
+					&none &kp TAB   &kp C_VOL_DN &kp C_VOL_UP &kp LBKT  &kp RBKT  
+					&none &sk LCTRL &sk LALT     &trans       &sk LGUI  &trans
 				>;
 		};
 		fn {
 				bindings = <
-					&out OUT_TOG &kp F1 &kp F2  &kp F3  &kp F4  &bt BT_SEL 2  
-					&bt  BT_CLR  &kp F5 &kp F6  &kp F7  &kp F8  &bt BT_SEL 1  
-					&trans       &kp F9 &kp F10 &kp F11 &kp F12 &bt BT_SEL 0  
-					&trans       &trans &trans  &trans  &trans  &none
+					&none &kp F1       &kp F2     &kp F3       &kp F4       &kp F5  
+					&none &kp F6       &kp F7     &kp F8       &kp F9       &kp F10
+					&none &reset       &bt BT_CLR &bt BT_SEL 2 &bt BT_SEL 1 &bt BT_SEL 0  
+					&none &out OUT_TOG &trans     &trans       &trans       &none
 				>;
 		};
 	};
