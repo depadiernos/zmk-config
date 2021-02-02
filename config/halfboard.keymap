@@ -28,7 +28,7 @@
 					&kp BSPC  &kp Q    &kp W    &kp E   &kp R   &kp T  
 					&kp RET   &kp A    &kp S    &kp D   &kp F   &kp G  
 					&sk LSHFT &kp Z    &kp X    &kp C   &kp V   &kp B  
-					&kp LCTRL &kp LALT &kp LGUI &sl SYM &sl NUM &lt SPC SPACE
+					&sk LCTRL &sk LALT &sk LGUI &mo SYM &sl NUM &lt SPC SPACE
 				>;
 			};
 
@@ -51,17 +51,17 @@
 		};
 		navi {
 				bindings = <
-					&kp ESC &kp PG_UP  &kp HOME     &kp UP       &kp END   &kp INS 
-					&kp TAB &kp PG_DN  &kp LEFT     &kp DOWN     &kp RIGHT &kp LG(LS(N4)) 
+					&kp ESC &kp HOME   &kp UP       &kp END      &kp PG_UP &kp INS 
+					&kp TAB &kp LEFT   &kp DOWN     &kp RIGHT    &kp PG_DN &kp LG(LS(N4)) 
 					&trans  &kp C_MUTE &kp C_VOL_DN &kp C_VOL_UP &none     &kp PSCRN  
 					&trans  &trans     &trans       &trans       &mo FN    &kp SPACE
 				>;
 		};
 		fn {
 				bindings = <
-					&out OUT_TOG &kp F1 &kp F2  &kp F3  &kp F4  &bt BT_CLR  
-					&reset       &kp F5 &kp F6  &kp F7  &kp F8  &bt BT_SEL 0  
-					&trans       &kp F9 &kp F10 &kp F11 &kp F12 &bt BT_SEL 1  
+					&out OUT_TOG &kp F1 &kp F2  &kp F3  &kp F4  &bt BT_SEL 2  
+					&bt  BT_CLR  &kp F5 &kp F6  &kp F7  &kp F8  &bt BT_SEL 1  
+					&trans       &kp F9 &kp F10 &kp F11 &kp F12 &bt BT_SEL 0  
 					&trans       &trans &trans  &trans  &trans  &none
 				>;
 		};
