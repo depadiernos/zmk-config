@@ -10,7 +10,7 @@
 #include <dt-bindings/zmk/outputs.h>
 
 #define DEFAULT 0
-#define PRIME   1
+#define SPC   1
 #define NUM   2
 #define SYM   3
 #define FN    4
@@ -28,7 +28,7 @@
 					&none &kp F      &kp D     &kp N   &kp I   &kp G  
 					&none &kp S      &kp T     &kp H   &kp F   &kp O  
 					&none &kp C      &kp W     &kp R   &kp A   &kp U  
-					&none &sk LSHIFT &kp ENTER &sl SYM &sl NUM &lt PRIME SPACE
+					&none &sk LSHIFT &kp ENTER &sl SYM &sl NUM &lt SPC SPACE
 				>;
 			};
 
@@ -51,8 +51,8 @@
 		};
 		navi {
 				bindings = <
-					&none &kp BSPC  &kp HOME     &kp UP       &kp END   &kp PGUP 
-					&none &kp DEL   &kp LEFT     &kp DOWN     &kp RIGHT &kp PGDN
+					&none &kp BSPC  &kp HOME     &kp UP       &kp END   &kp PG_UP 
+					&none &kp DEL   &kp LEFT     &kp DOWN     &kp RIGHT &kp PG_DN
 					&none &kp TAB   &kp C_VOL_DN &kp C_VOL_UP &kp LBKT  &kp RBKT  
 					&none &sk LCTRL &sk LALT     &trans       &sk LGUI  &trans
 				>;
