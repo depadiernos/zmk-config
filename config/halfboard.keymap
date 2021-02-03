@@ -23,28 +23,28 @@
 
 		default_layer {
 				bindings = <
-					&none &kp F      &kp D   &kp N   &kp I   &kp G  
-					&none &kp S      &kp T   &kp H   &kp E   &kp O  
-					&none &kp C      &kp W   &kp R   &kp A   &kp U  
+					&none &kp Q      &kp W   &kp E   &kp R   &kp T  
+					&none &kp A      &kp S   &kp D   &kp F   &kp G  
+					&none &kp Z      &kp X   &kp C   &kp V   &kp B  
 					&none &sk LSHFT &kp RET &sl NAV &sl NUM &lt 1 SPACE
 				>;
 			};
 
 		space {
 				bindings = <
-					&none  &kp J  &kp K  &kp M    &kp I    &kp MINUS  
-					&none  &kp Y  &kp P  &kp K    &kp L    &kp Q  
-					&none  &kp X  &kp B  &kp V    &kp FSLH &kp Z  
-					&none  &trans &trans &kp ESC  &none    &trans
+					&none  &kp P     &kp O     &kp I    &kp U &kp Y  
+					&none  &kp SEMI  &kp L     &kp E    &kp J &kp H  
+					&none  &kp FSLH  &kp COMMA &kp DOT  &kp M &kp N  
+					&none  &trans    &trans    &kp ESC  &none &trans
 				>;
 		};
 
 		num {
 				bindings = <
-					&none &kp N1    &kp N2    &kp N3   &kp N4    &kp N5 
-					&none &kp N6    &kp N7    &kp N8   &kp N9    &kp N0  
-					&none &kp EQUAL &kp GRAVE &kp SEMI &kp COMMA &kp DOT  
-					&none &trans    &trans    &sl FN   &trans    &trans
+					&none &kp N1  &kp N2    &kp N3    &kp N4    &kp N5 
+					&none &kp N6  &kp N7    &kp N8    &kp N9    &kp N0  
+					&none &kp SQT &kp GRAVE &kp MINUS &kp EQUAL &kp BSLH  
+					&none &trans  &trans    &sl FN    &trans    &trans
 				>;
 		};
 		navi {
