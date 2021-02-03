@@ -23,10 +23,10 @@
 
 		default_layer {
 				bindings = <
-					&none &kp Q      &kp W   &kp E   &kp R   &kp T  
-					&none &kp A      &kp S   &kp D   &kp F   &kp G  
-					&none &kp Z      &kp X   &kp C   &kp V   &kp B  
-					&none &sk LSHFT &kp RET &sl NAV &sl NUM &lt 1 SPACE
+					&none &kp Q      &kp W   &kp E    &kp R   &kp T  
+					&none &kp A      &kp S   &kp D    &kp F   &kp G  
+					&none &kp Z      &kp X   &kp C    &kp V   &kp B  
+					&none &sk LSHFT  &kp RET &tog NAV &sl NUM &lt 1 SPACE
 				>;
 			};
 
@@ -44,7 +44,7 @@
 					&none &kp N1  &kp N2    &kp N3    &kp N4    &kp N5 
 					&none &kp N6  &kp N7    &kp N8    &kp N9    &kp N0  
 					&none &kp SQT &kp GRAVE &kp MINUS &kp EQUAL &kp BSLH  
-					&none &trans  &trans    &sl FN    &trans    &trans
+					&none &trans  &trans    &sl FN    &trans    &kp SPACE
 				>;
 		};
 		navi {
@@ -52,7 +52,7 @@
 					&none &kp BSPC  &kp HOME     &kp UP       &kp END   &kp PG_UP 
 					&none &kp DEL   &kp LEFT     &kp DOWN     &kp RIGHT &kp PG_DN
 					&none &kp TAB   &kp C_VOL_DN &kp C_VOL_UP &kp LBKT  &kp RBKT  
-					&none &sk LCTRL &sk LALT     &trans       &sk LGUI  &trans
+					&none &sk LCTRL &sk LALT     &trans       &sk LGUI  &kp SPACE
 				>;
 		};
 		fn {
