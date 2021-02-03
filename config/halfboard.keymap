@@ -33,7 +33,7 @@
 		space {
 				bindings = <
 					&none  &kp P     &kp O     &kp I    &kp U &kp Y  
-					&none  &kp SEMI  &kp L     &kp E    &kp J &kp H  
+					&none  &kp SEMI  &kp L     &kp K    &kp J &kp H  
 					&none  &kp FSLH  &kp COMMA &kp DOT  &kp M &kp N  
 					&none  &trans    &trans    &kp ESC  &none &trans
 				>;
