@@ -26,7 +26,7 @@
 					&none &kp Q      &kp W   &kp E    &kp R   &kp T  
 					&none &kp A      &kp S   &kp D    &kp F   &kp G  
 					&none &kp Z      &kp X   &kp C    &kp V   &kp B  
-					&none &sk LSHFT  &kp RET &tog NAV &sl NUM &lt 1 SPACE
+					&none &sk LSHFT  &kp RET &sl NAV &sl NUM &lt 1 SPACE
 				>;
 			};
 
